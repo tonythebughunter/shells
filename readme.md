@@ -11,4 +11,4 @@ Common php file extensions:
 9. .jpeg.php
 
 
-for shell.php above add ?cmd=<command eg whoami>
+for shell.php above add ?cmd=<command-e.g whoami> in the path where the file is uploaded eg /images/safeImage.php?cmd=whoami
