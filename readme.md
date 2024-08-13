@@ -9,3 +9,6 @@ Common php file extensions:
 7. .png.php
 8. .jpg.php
 9. .jpeg.php
+
+
+for shell.php above add ?cmd=<command eg whoami>
