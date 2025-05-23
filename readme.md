@@ -46,3 +46,8 @@ filename=".htaccess"    OR    ".htaccess%00.jpg"
 
       AddType text/html .jpg                       ---->This will process any jpg file uploaded as html
 
+
+## Magic Numbers
+
+1. For .png: look for ".png" or ".png.php" and add PNG magic in the first line of content extension in the submitted files 'PNG' in hexadecimal: "50 4E 47" )
+
